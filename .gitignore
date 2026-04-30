@@ -1,0 +1,17 @@
+# Local configuration files
+.continue/
+.env
+*.log
+
+# Windows specific
+Thumbs.db
+desktop.ini
+
+# IDE specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
