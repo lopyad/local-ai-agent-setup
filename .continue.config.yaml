@@ -12,11 +12,3 @@ models:
     contextLength: 8192
     completionOptions:
       maxTokens: 2048
-
-  - name: gemma-4-e2b
-    provider: openai
-    model: gemma-4-e2b-it-uncensored
-    roles:
-      - autocomplete
-    apiBase: http://localhost:11434/v1
-    contextLength: 4096
