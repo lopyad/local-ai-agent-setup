@@ -7,6 +7,17 @@
 - **Ollama 설치**: [ollama.com](https://ollama.com/)에서 Windows용 Ollama를 다운로드하여 설치하세요.
 - **VS Code 및 Continue 설치**: VS Code를 실행하고 Extension 마켓플레이스에서 **Continue**를 설치하세요.
 
+- **프로젝트 디렉토리 이동**:
+```powershell
+git clone https://github.com/lopyad/local-ai-agent-setup
+```
+```powershell
+cd local-ai-agent-setup
+```
+```powershell
+code .
+```
+
 ---
 
 ## 2. Ollama 모델 생성 (`Modelfile` 사용)
